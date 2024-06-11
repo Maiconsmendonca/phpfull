@@ -33,7 +33,7 @@ Este é um projeto Docker para facilitar o gerenciamento de vários serviços PH
 2. **Navegue até o diretório do projeto**:
 
     ```bash
-    cd versoes_php
+    cd phpfull
     ```
 
 3. **Configure as versões do PHP desejadas** no arquivo `docker-compose.yml`.
