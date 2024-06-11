@@ -27,7 +27,7 @@ Este é um projeto Docker para facilitar o gerenciamento de vários serviços PH
 1. **Clone este repositório em sua máquina local**:
 
     ```bash
-    git clone https://github.com/Maiconsmendonca/versoes_php/.git
+    git clone https://github.com/Maiconsmendonca/phpfull.git
     ```
 
 2. **Navegue até o diretório do projeto**:
