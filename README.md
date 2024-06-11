@@ -66,7 +66,7 @@ Você pode personalizar este projeto de acordo com suas necessidades:
 
 ## Contribuindo
 
-Se você encontrar problemas ou tiver sugestões de melhorias, sinta-se à vontade para abrir uma [issue](https://github.com/seu-usuario/nome-do-repositorio/issues) ou enviar um [pull request](https://github.com/seu-usuario/nome-do-repositorio/pulls).
+Se você encontrar problemas ou tiver sugestões de melhorias, sinta-se à vontade para abrir uma [issue](https://github.com/Maiconsmendonca/phpfull/issues) ou enviar um [pull request](https://github.com/Maiconsmendonca/phpfull/pulls).
 
 ## Licença
 
