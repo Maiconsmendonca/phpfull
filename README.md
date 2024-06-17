@@ -27,13 +27,13 @@ Este é um projeto Docker para facilitar o gerenciamento de vários serviços PH
 1. **Clone este repositório em sua máquina local**:
 
     ```bash
-    git clone https://github.com/Maiconsmendonca/phpfull.git
+    git clone http://californio.keynet.com.br:8089/php/docker/php.git
     ```
 
 2. **Navegue até o diretório do projeto**:
 
     ```bash
-    cd phpfull
+    cd php_full
     ```
 
 3. **Configure as versões do PHP desejadas** no arquivo `docker-compose.yml`.

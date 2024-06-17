@@ -1,50 +1,51 @@
-version: '3'
+version: '3.8'
 
 services:
-  php5.6:
+  php56:
+    image: php:5.6-apache
     container_name: php5.6
-    build: .
-    ports:
-      - 80:80
-    volumes:
-      - ${HOME}/Documentos/Docker/projetos:/var/www/html
-  php7.1:
-    container_name: php7.1
-    build: .
     ports:
       - 81:81
     volumes:
       - ${HOME}/Documentos/Docker/projetos:/var/www/html
-
-  php7.3:
-    container_name: php7.3
-    build: .
+      
+  php71:
+    image: php:7.1-apache
+    container_name: php7.1
     ports:
       - 82:82
     volumes:
       - ${HOME}/Documentos/Docker/projetos:/var/www/html
 
-  php8.1:
-    container_name: php8.1
-    build: .
+  php73:
+    image: php:7.3-apache
+    container_name: php7.3
     ports:
       - 83:83
     volumes:
       - ${HOME}/Documentos/Docker/projetos:/var/www/html
 
-  php8.2:
-    container_name: php8.2
-    build: .
+  php81:
+    image: php:8.1-apache
+    container_name: php8.1
     ports:
       - 84:84
     volumes:
       - ${HOME}/Documentos/Docker/projetos:/var/www/html
 
-  php8.3:
-    container_name: php8.3
-    build: .
+  php82:
+    image: php:8.2-apache
+    container_name: php8.2
     ports:
       - 85:85
+    volumes:
+      - ${HOME}/Documentos/Docker/projetos:/var/www/html
+
+  php83:
+    image: php:8.3-apache
+    container_name: php8.3
+    ports:
+      - 86:86
     volumes:
       - ${HOME}/Documentos/Docker/projetos:/var/www/html
 
